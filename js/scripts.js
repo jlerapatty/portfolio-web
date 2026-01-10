@@ -13,7 +13,7 @@ document.querySelectorAll(".nav-link").forEach(link => {
 });
 
 
-// ===== Simple Greeting Based on Time =====
+// ===== Greeting Based on Time =====
 const heroTitle = document.querySelector(".hero h1");
 const hour = new Date().getHours();
 
@@ -26,7 +26,7 @@ if (hour < 12) {
 }
 
 
-// ===== Highlight Card on Hover (JS way, not CSS) =====
+// ===== Highlight Card on Hover =====
 const projectCards = document.querySelectorAll(".card");
 
 projectCards.forEach(card => {
@@ -40,6 +40,3 @@ projectCards.forEach(card => {
     });
 });
 
-
-// ===== Console Proof (for recruiter/dev) =====
-console.log("Portfolio JS loaded successfully");
